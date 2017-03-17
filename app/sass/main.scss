@@ -62,7 +62,7 @@ body {
 }
 
 
-/* Start of the header block woth image*/
+/* Start of the header block with image*/
 
 .header-with-img {
     width: 100%;
@@ -99,6 +99,169 @@ body {
 .header-with-img--text .last-p {
     font-family: 'BabasNeueRegular';
     font-size: 36px;
+}
+
+nav {
+    background-color: #262223;
+}
+
+.flex-container {
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.logo {
+    cursor: pointer;
+    margin-left: 36px;
+    line-height: 2.15;
+    font-size: 48px;
+    font-family: 'BabasNeueRegular';
+}
+
+.navigation-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 2;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.navigation-links li {
+    margin-right: 34px;
+}
+
+.social-icons-link {
+    margin-left: 13px;
+}
+
+.navigation-links li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'BabasNeueRegular';
+    &:hover {
+        color: #65ba99;
+    }
+}
+
+.fa-facebook {
+    border-radius: 50px;
+    color: #252222;
+    background-color: #fff;
+    &:hover {
+        color: #4867aa;
+    }
+}
+
+.fa-facebook-f:before,
+.fa-facebook:before {
+    font-size: 20px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 35px;
+    content: "\f09a";
+    height: 35px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.fa-linkedin-square {
+    border-radius: 50px;
+    color: #252222;
+    background-color: #fff;
+    &:hover {
+        color: #0077b5;
+    }
+}
+
+.fa-linkedin-square:before,
+.fa-linkedin-square:before {
+    font-size: 20px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 35px;
+    content: "\f09a";
+    height: 35px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.fa-flickr {
+    border-radius: 50px;
+    color: #252222;
+    background-color: #fff;
+    &:hover {
+        color: #0063db;
+    }
+}
+
+.fa-flickr:before,
+.fa-flickr:before {
+    font-size: 20px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 35px;
+    content: "\f09a";
+    height: 35px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.fa-twitter {
+    border-radius: 50px;
+    color: #252222;
+    background-color: #fff;
+    &:hover {
+        color: #5dd7fc;
+    }
+}
+
+.fa-twitter,
+.fa-twitter:before {
+    font-size: 20px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 35px;
+    content: "\f09a";
+    height: 35px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 50px;
 }
 
 @import "media"
