@@ -151,6 +151,7 @@ nav {
 }
 
 .navigation-links li a {
+    padding-bottom: 15px;
     text-decoration: none;
     font-size: 18px;
     color: #fff;
@@ -159,6 +160,7 @@ nav {
     font-family: 'BabasNeueRegular';
     &:hover {
         color: #65ba99;
+        border-bottom: 1px solid #65ba99;
     }
 }
 
