@@ -1,0 +1,104 @@
+@import "bourbon";
+@import "fonts";
+@import "libs";
+@import "vars";
+*::-webkit-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*::-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-ms-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+
+/* the width of main content*/
+
+.inner-wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+    color: #666;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+    color: #666;
+}
+
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 16px;
+    min-width: 320px;
+    position: relative;
+    line-height: 1.75;
+    overflow-x: hidden;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Start of the header block woth image*/
+
+.header-with-img {
+    width: 100%;
+    padding-top: 125px;
+    background: url('../img/header_photo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-with-img--text {
+    padding-bottom: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 65px;
+    line-height: 0.74;
+    font-family: 'BabasNeueRegular';
+    color: #fff;
+    font-size: 90px;
+}
+
+.header-with-img--text p {
+    margin: 0;
+}
+
+.header-with-img--text .last-p {
+    font-family: 'BabasNeueRegular';
+    font-size: 36px;
+}
+
+@import "media"
