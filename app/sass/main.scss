@@ -158,6 +158,8 @@ nav {
     padding-left: 15px;
     padding-right: 15px;
     font-family: 'BabasNeueRegular';
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
     &:hover {
         color: #65ba99;
         border-bottom: 1px solid #65ba99;
@@ -165,6 +167,8 @@ nav {
 }
 
 .fa-facebook {
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
     border-radius: 50px;
     color: #252222;
     background-color: #fff;
@@ -192,6 +196,8 @@ nav {
 }
 
 .fa-linkedin-square {
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
     border-radius: 50px;
     color: #252222;
     background-color: #fff;
@@ -219,6 +225,8 @@ nav {
 }
 
 .fa-flickr {
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
     border-radius: 50px;
     color: #252222;
     background-color: #fff;
@@ -246,6 +254,8 @@ nav {
 }
 
 .fa-twitter {
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
     border-radius: 50px;
     color: #252222;
     background-color: #fff;
